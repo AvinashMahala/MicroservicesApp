@@ -9,7 +9,7 @@ app.config["SQLALCHEMY_DATABASE_URI"] = \
  'mysql://root:root@db/main'
 CORS(app)
 
-# db=SQLAlchemy(app)
+db=SQLAlchemy(app)
 
 # class Product(db.Model):
 #     '''
