@@ -4,7 +4,8 @@ from sqlalchemy import UniqueConstraint
 
 
 app=Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = 'mysql://root:root@db/main'#'mysql://<uid>:<pwd>@<hostName>/<dbName>'
+app.config["SQLALCHEMY_DATABASE_URI"] = \
+ 'mysql://root:root@db/main'#'mysql://<uid>:<pwd>@<hostName>/<dbName>'
 CORS(app)
 
 db=SQLAlchemy(app)
