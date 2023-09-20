@@ -1,9 +1,12 @@
 from django.shortcuts import render
 from rest_framework import viewsets, status
+from rest_framework.views import APIView
 
 from rest_framework.response import Response
-from .models import Product
+from .models import Product, User
 from .serializers import ProductSerializer
+
+import random
 
 # Create your views here.
 class ProductViewSet(viewsets.ViewSet):
@@ -35,3 +38,12 @@ class ProductViewSet(viewsets.ViewSet):
         product.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
+
+class UserAPIView(APIView):
+    def get(self, _):
+        users= User.objects.all()
+        user=random.choice(users)
+        return Response({
+            'id':user.id
+        })
+    
