@@ -1,4 +1,5 @@
 admin/.dbdata/*
+main/.dbdata/*
 admin/admin/__pycache__/*
 admin/products/__pycache__/*
 admin/products/migrations/*
