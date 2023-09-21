@@ -7,3 +7,5 @@ main/migrations
 main/__pycache__/*
 
 .idea/*
+
+react-crud/node_modules/*
