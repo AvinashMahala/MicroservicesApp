@@ -4,6 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import UniqueConstraint
 from flask_migrate import Migrate
 from dataclasses import dataclass
+import requests
 
 app=Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = \
@@ -51,6 +52,18 @@ def index():
     # products=Product.query.all()
     # return jsonify([product.to_dict() for product in products])
     return jsonify(Product.query.all())
+
+
+@app.route('/api/products/<int:id>/like', methods=['POST'])
+def like(id):
+    req= requests.get('http://host.docker.internal:8000/api/user')
+    if req.content:
+        print(req)
+        return jsonify(req.json())
+    else:
+        return "Empty response from the API", 500
+
+
 
 if __name__=='__main__':
     app.run(debug=True, host='0.0.0.0')
