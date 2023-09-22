@@ -1,6 +1,4 @@
-# Project Title
-
-Microservices-Based Web Application with Django, Flask, and React
+# Microservices-Based Web Application with Django, Flask, and React
 
 ## Table of Contents
 
@@ -216,9 +214,5 @@ Here are some important Docker commands for managing your containers:
 - `docker-compose unpause`: Unpause services.
 - `docker-compose kill`: Kill services.
 -
-
- `docker-compose images`: List images used by created containers.
-
-Please refer to the specific service directories and Docker Compose files for more detailed instructions and configurations.
 
 This comprehensive README file should help anyone understand and reproduce your microservices-based web application project successfully. Make sure to keep it updated as your project evolves or new features are added.
