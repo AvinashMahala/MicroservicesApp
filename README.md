@@ -2,28 +2,23 @@
 
 ## Table of Contents
 
-- [Project Title](#project-title)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Prerequisites](#prerequisites)
-  - [Setting Up Django](#setting-up-django)
-    - [Installing Django and Dependencies](#installing-django-and-dependencies)
-  - [Connecting Django with MySQL and Docker](#connecting-django-with-mysql-and-docker)
-  - [Setting Up Flask](#setting-up-flask)
-    - [Installing Flask and Dependencies](#installing-flask-and-dependencies)
-    - [Running Flask App](#running-flask-app)
-  - [Connecting Flask with MySQL and Docker](#connecting-flask-with-mysql-and-docker)
-  - [RabbitMQ Setup](#rabbitmq-setup)
-  - [Django Producer and Consumer](#django-producer-and-consumer)
-  - [Flask Producer and Consumer](#flask-producer-and-consumer)
-  - [Queue Service](#queue-service)
-  - [Data Consistency](#data-consistency)
-  - [Internal HTTP Requests](#internal-http-requests)
-  - [Finishing the Python Apps](#finishing-the-python-apps)
-  - [React Setup](#react-setup)
-  - [Products CRUD](#products-crud)
-  - [Completing the Main App](#completing-the-main-app)
-  - [Important Docker Commands](#important-docker-commands)
+1. [Introduction](#introduction)
+2. [Prerequisites](#prerequisites)
+3. [Setting Up Django](#setting-up-django)
+4. [Connecting Django with MySQL and Docker](#connecting-django-with-mysql-and-docker)
+5. [Setting Up Flask](#setting-up-flask)
+6. [Connecting Flask with MySQL and Docker](#connecting-flask-with-mysql-and-docker)
+7. [RabbitMQ Setup](#rabbitmq-setup)
+8. [Django Producer and Consumer](#django-producer-and-consumer)
+9. [Flask Producer and Consumer](#flask-producer-and-consumer)
+10. [Queue Service](#queue-service)
+11. [Data Consistency](#data-consistency)
+12. [Internal HTTP Requests](#internal-http-requests)
+13. [Finishing the Python Apps](#finishing-the-python-apps)
+14. [React Setup](#react-setup)
+15. [Products CRUD](#products-crud)
+16. [Completing the Main App](#completing-the-main-app)
+17. [Important Docker Commands](#important-docker-commands)
 
 ## Introduction
 
@@ -215,4 +210,4 @@ Here are some important Docker commands for managing your containers:
 - `docker-compose kill`: Kill services.
 -
 
-This comprehensive README file should help anyone understand and reproduce your microservices-based web application project successfully. Make sure to keep it updated as your project evolves or new features are added.
+ `docker-compose images`: List images used by created containers.
