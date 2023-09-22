@@ -208,6 +208,4 @@ Here are some important Docker commands for managing your containers:
 - `docker-compose pause`: Pause services.
 - `docker-compose unpause`: Unpause services.
 - `docker-compose kill`: Kill services.
--
-
- `docker-compose images`: List images used by created containers.
+- `docker-compose images`: List images used by created containers.
