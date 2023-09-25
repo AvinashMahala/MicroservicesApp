@@ -1,4 +1,4 @@
-# Microservices-Based Web Application with Django, Flask, and React
+# MicroMarket - A Microservices-Based Web Application with Django, Flask, and React
 **Learned Tech Stack:**
 
 **Backend Technologies:**
