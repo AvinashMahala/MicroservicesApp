@@ -4,20 +4,31 @@
 **MicroMarket Highlights:**
 
 🔗 Microservices Magic: Powered by a microservices architecture for scalability and robustness.
+
 📦 CRUD Simplicity: Effortlessly manage products with Create, Read, Update, and Delete features.
+
 🔄 Data Harmony: Ensures consistent and real-time data across the platform.
+
 🔐 Role-Based Security: Implemented role-based access control for top-notch security.
+
 🐳 Dockerized Ease: Streamlined deployment with Docker for seamless scalability.
+
 📨 Message Magic: Enhancing communication with RabbitMQ for efficiency.
+
 ⚡ React Brilliance: Enjoy a dynamic and user-friendly interface thanks to React JS.
 
 **Tech Stack:**
 
 🛠 Backend: Django, Flask, Django REST Framework, Docker, MySQL, RabbitMQ [AMQP], POSTMAN
+
 🎨 Frontend: React JS, Typescript
+
 🧰 Dev & Deploy: Python 3.x, Node.js, GitHub, MySQL Workbench, Docker Compose
+
 💌 Communication: RabbitMQ
+
 🧩 Additional Concepts: Microservices Architecture, Data Consistency, Internal HTTP Requests, CRUD Operations
+
 📦 Dependency Management: PIP, NPM
 
 ## Table of Contents
