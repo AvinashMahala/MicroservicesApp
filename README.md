@@ -1,7 +1,7 @@
 # Microservices-Based Web Application with Django, Flask, and React
 **Learned Tech Stack:**
 **Backend Technologies:**
-Django, Flask, Django RESR Framework, Docker, MySQL, RabbitMQ
+Django, Flask, Django REST Framework, Docker, MySQL, RabbitMQ [AMQP], POSTMAN
 
 **Frontend Technologies:**
 React JS, Typescript
@@ -14,6 +14,9 @@ RabbitMQ
 
 **Additional Concepts:**
 Microservices Architecture, Data Consistency, Internal HTTP Requests, CRUD Operations
+
+**Dependency Management:**
+PIP, NPM
 
 ## Table of Contents
 
